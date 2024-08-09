@@ -1,0 +1,20 @@
+.asset-summary-card {
+  width: 8rem;
+  cursor: pointer;
+  font-size: 0.7rem;
+  margin: 0.5rem;
+  }
+  
+  .asset-summary-card .card-body {
+  padding: 0.5rem;
+  }
+  
+  .card-title {
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+  }
+  
+  .card-text {
+  font-size: 0.7rem;
+  }
+  

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Preqin.Application/1.0.0": {
+        "dependencies": {
+          "Preqin.Core": "1.0.0"
+        },
+        "runtime": {
+          "Preqin.Application.dll": {}
+        }
+      },
+      "Preqin.Core/1.0.0": {
+        "runtime": {
+          "Preqin.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Preqin.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Preqin.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

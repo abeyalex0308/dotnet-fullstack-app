@@ -1,0 +1,10 @@
+
+.main-content {
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  :root {
+    --header-height: 50px; 
+  }
+  
