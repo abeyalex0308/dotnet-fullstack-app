@@ -6,23 +6,23 @@ The Preqin Platform is a comprehensive solution for Preqin users to manage and v
 
 The platform is developed with .NET Core for the backend API and React with TypeScript for the frontend interface.
 
-## Backend - .NET Core API
+## [Backend - .NET Core API](https://github.com/abeyalex0308/dotnet-fullstack-app/tree/main/src)
 
 The backend API is structured using Clean Architecture principles to promote separation of concerns and code maintainability. The architecture is divided into several projects:
 
-### Preqin.Application
+### [Preqin.Application](https://github.com/abeyalex0308/dotnet-fullstack-app/tree/main/src/Preqin.Application)
 
 This layer contains the application's business logic and defines interfaces for user operations. It serves as a bridge between the UI and the domain logic.
 
-### Preqin.Core
+### [Preqin.Core](https://github.com/abeyalex0308/dotnet-fullstack-app/tree/main/src/Preqin.Core)
 
 The Core project encompasses the domain entities, enums, exceptions, interfaces, and domain-specific logic. It forms the heart of the architecture, with all other layers depending on it.
 
-### Preqin.Infrastructure
+### [Preqin.Infrastructure](https://github.com/abeyalex0308/dotnet-fullstack-app/tree/main/src/Preqin.Infrastructure)
 
 Infrastructure is responsible for data access and external interactions such as file systems, web services, and third-party APIs. It provides concrete implementations for the interfaces defined in the Core project.
 
-### Preqin.WebAPI
+### [Preqin.WebAPI](https://github.com/abeyalex0308/dotnet-fullstack-app/tree/main/src/Preqin.WebAPI)
 
 The WebAPI project provides the necessary endpoints for frontend interaction and includes configurations for middleware, dependency injection, and other API-level settings.
 
@@ -34,7 +34,7 @@ A robust logging and exception handling middleware is implemented to log errors 
 
 SQLite is used as the database with Entity Framework Core, following a DB-first approach. The repository pattern is utilized within the application layer to abstract data access and ensure loose coupling.
 
-## Frontend - React with TypeScript
+## [Frontend - React with TypeScript](https://github.com/abeyalex0308/dotnet-fullstack-app/tree/main/client-app)
 
 The frontend is crafted using React with TypeScript for a type-safe development experience.
 
